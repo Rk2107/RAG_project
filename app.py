@@ -55,7 +55,7 @@ def create_conversational_chain(vector_store):
     # Create llm
     llm = LlamaCpp(
         streaming=True,
-        model_path="hugging_face_model.gguf",
+        model_path="https://drive.google.com/file/d/1lGiOYVjM2WHgL4VP8JleBhvomwfzr2sg/view?usp=drive_link",
         temperature=0.75,
         top_p=1,
         verbose=True,
